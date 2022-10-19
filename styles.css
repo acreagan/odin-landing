@@ -1,3 +1,25 @@
 body {
     font-family: "Roboto", "Verdana", sans-serif;
 }
+
+.header-logo {
+    font-size: 24px;
+}
+
+.header-logo, .hero-heading {
+    color: #F9FAF8;
+}
+
+.header, .hero {
+    background-color: #1F2937;
+}
+
+.header-links, .hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-heading {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
