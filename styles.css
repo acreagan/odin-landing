@@ -12,6 +12,7 @@ body {
 
 .header, .hero {
     background-color: #1F2937;
+    padding: 10px 50px;
 }
 
 .header-links, .hero-text {
@@ -22,4 +23,19 @@ body {
 .hero-heading {
     font-size: 48px;
     font-weight: extra-bold;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
 }
